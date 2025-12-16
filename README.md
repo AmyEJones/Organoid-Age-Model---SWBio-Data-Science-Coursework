@@ -39,6 +39,8 @@ Open code as a jupyter notebook and run all blocks in order.
 
 The code is designed to set the working directory to where the data is contained. Please make sure that the notebook and the data file are located in the same folder before running.
 
+The input dataset is modified from Camp _et al._ 2015 to be compatible with python. This has been provided as a compressed CSV (`.csv.gz`) to comply with GitHub file size limits. Pandas should handle decompression when loading the file.
+
 ## Help
 
 If the programme is not running correctly, check that relevant dependencies have been installed in the same directory and that the specified versions have been adhered to. Else, see package documentation or contact the author (jonesa269@cardiff.ac.uk).
